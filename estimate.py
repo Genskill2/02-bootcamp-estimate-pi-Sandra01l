@@ -2,7 +2,7 @@ import math
 import unittest
 import random
 
-def Wallis(n):
+def wallis(n):
      pi=1
      for i in range(1,n):
         pi*=((4*i*i)/((4*i*i)-1))
